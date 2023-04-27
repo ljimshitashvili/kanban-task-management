@@ -1,5 +1,5 @@
 import { Task } from "../Task";
-import { Columns, Tasks } from "common/types/types";
+import { Columns, Tasks } from "../../../../common/types/types";
 
 import {
   Container,

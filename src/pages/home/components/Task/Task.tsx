@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Tasks, SubTasks } from "common/types/types";
+import { Tasks, SubTasks } from "../../../../common/types/types";
 
 import { ViewTask } from "../ViewTask";
 import { Container, Heading, SubTasksContainer } from "./Task.styled";

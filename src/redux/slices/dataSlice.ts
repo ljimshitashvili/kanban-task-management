@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { Boards, Tasks, EditBoardTypes } from "common/types/types";
+import { Boards, Tasks, EditBoardTypes } from "../../common/types/types";
 
 type InitialState = {
   boards: Boards[];
