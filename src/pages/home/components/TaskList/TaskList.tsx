@@ -1,7 +1,7 @@
-import { Container } from "./TasksList.styled";
+import { Container } from "./TaskList.styled";
 import { Column } from "../Column";
-import { useAppSelector } from "redux/hooks";
-import { Columns } from "common/types/types";
+import { useAppSelector } from "../../../../redux/hooks";
+import { Columns } from "../../../../common/types/types";
 
 export const TasksList = () => {
   const { isBarShowed } = useAppSelector((state) => state.bar);

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as EllipsisSVG } from "assets/svg/icon-vertical-ellipsis.svg";
+import { ReactComponent as EllipsisSVG } from "../../../../assets/svg/icon-vertical-ellipsis.svg";
 
 export const StyledEllipsisSVG = styled(EllipsisSVG)`
   cursor: pointer;

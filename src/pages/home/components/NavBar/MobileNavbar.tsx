@@ -10,11 +10,11 @@ import {
   ToggleDarkMode,
   TogglerButton,
 } from "./MobileNavbar.styled";
-import { ReactComponent as SunSVG } from "assets/svg/icon-light-theme.svg";
-import { ReactComponent as MoonSVG } from "assets/svg/icon-dark-theme.svg";
-import { useAppDispatch, useAppSelector } from "redux/hooks";
-import { toggleTheme } from "redux/slices/themeSlice";
-import { changeCurrentBoard } from "redux/slices/dataSlice";
+import { ReactComponent as SunSVG } from "../../../../assets/svg/icon-light-theme.svg";
+import { ReactComponent as MoonSVG } from "../../../../assets/svg/icon-dark-theme.svg";
+import { useAppDispatch, useAppSelector } from "../../../../redux/hooks";
+import { toggleTheme } from "../../../../redux/slices/themeSlice";
+import { changeCurrentBoard } from "../../../../redux/slices/dataSlice";
 import { AddBoard } from "../AddBoard";
 
 export const MobileNavbar = () => {

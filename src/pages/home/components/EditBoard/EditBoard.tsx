@@ -1,8 +1,8 @@
-import { useAppSelector } from "redux/hooks";
+import { useAppSelector } from "../../../../redux/hooks";
 import { useState, useEffect } from "react";
 import Modal from "styled-react-modal";
-import { useAppDispatch } from "redux/hooks";
-import { editBoard } from "redux/slices/dataSlice";
+import { useAppDispatch } from "../../../../redux/hooks";
+import { editBoard } from "../../../../redux/slices/dataSlice";
 
 import {
   Container,
@@ -14,8 +14,8 @@ import {
   StyledCrossSVG,
   AddNewColumn,
   CreateButton,
-} from "common/styles/ModifyBoards.styled";
-import { Columns } from "common/types/types";
+} from "../../../../common/styles/ModifyBoards.styles";
+import { Columns } from "../../../../common/types/types";
 
 type Props = {
   editBoardOpen: boolean;

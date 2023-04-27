@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as BoardSVG } from "assets/svg/icon-board.svg";
+import { ReactComponent as BoardSVG } from "../../../../assets/svg/icon-board.svg";
 
 interface ToggleDarkModeProps {
   darkMode: boolean;

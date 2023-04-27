@@ -1,7 +1,7 @@
 import Modal from "styled-react-modal";
-import { SubTasks, Tasks } from "common/types/types";
-import { useAppDispatch } from "redux/hooks";
-import { toggleSubTaskCompleted } from "redux/slices/dataSlice";
+import { SubTasks, Tasks } from "../../../../common/types/types";
+import { useAppDispatch } from "../../../../redux/hooks";
+import { toggleSubTaskCompleted } from "../../../../redux/slices/dataSlice";
 import { TaskMenu } from "../TaskMenu";
 
 import {
@@ -16,7 +16,7 @@ import {
   SubTaskTitle,
 } from "./ViewTask.styled";
 
-import { ReactComponent as CheckSVG } from "assets/svg/icon-check.svg";
+import { ReactComponent as CheckSVG } from "../../../../assets/svg/icon-check.svg";
 
 type Props = {
   isTaskOpen: boolean;

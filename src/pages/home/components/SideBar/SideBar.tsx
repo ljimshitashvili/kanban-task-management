@@ -12,15 +12,15 @@ import {
   TogglerButton,
   HideButton,
 } from "./SideBar.styled";
-import { ReactComponent as LightLogoDesktop } from "assets/svg/logo-light.svg";
-import { ReactComponent as DarkLogoDesktop } from "assets/svg/logo-dark.svg";
-import { ReactComponent as SunSVG } from "assets/svg/icon-light-theme.svg";
-import { ReactComponent as MoonSVG } from "assets/svg/icon-dark-theme.svg";
-import { ReactComponent as HideSideBarSVG } from "assets/svg/icon-hide-sidebar.svg";
-import { useAppDispatch, useAppSelector } from "redux/hooks";
-import { toggleTheme } from "redux/slices/themeSlice";
-import { toggleBar } from "redux/slices/barSlice";
-import { changeCurrentBoard } from "redux/slices/dataSlice";
+import { ReactComponent as LightLogoDesktop } from "../../../../assets/svg/logo-light.svg";
+import { ReactComponent as DarkLogoDesktop } from "../../../../assets/svg/logo-dark.svg";
+import { ReactComponent as SunSVG } from "../../../../assets/svg/icon-light-theme.svg";
+import { ReactComponent as MoonSVG } from "../../../../assets/svg/icon-dark-theme.svg";
+import { ReactComponent as HideSideBarSVG } from "../../../../assets/svg/icon-hide-sidebar.svg";
+import { useAppDispatch, useAppSelector } from "../../../../redux/hooks";
+import { toggleTheme } from "../../../../redux/slices/themeSlice";
+import { toggleBar } from "../../../../redux/slices/barSlice";
+import { changeCurrentBoard } from "../../../../redux/slices/dataSlice";
 import { AddBoard } from "../AddBoard";
 
 export const SideBar = () => {

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as DownChevronSVG } from "assets/svg/icon-chevron-down.svg";
-import { ReactComponent as UpChevronSVG } from "assets/svg/icon-chevron-up.svg";
+import { ReactComponent as DownChevronSVG } from "../../../../assets/svg/icon-chevron-down.svg";
+import { ReactComponent as UpChevronSVG } from "../../../../assets/svg/icon-chevron-up.svg";
 
 interface DesktopBoardTitleProps {
   isSideBarOpen: boolean;

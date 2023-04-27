@@ -1,6 +1,6 @@
 import Modal from "styled-react-modal";
-import { useAppDispatch, useAppSelector } from "redux/hooks";
-import { deleteBoard } from "redux/slices/dataSlice";
+import { useAppDispatch, useAppSelector } from "../../../../redux/hooks";
+import { deleteBoard } from "../../../../redux/slices/dataSlice";
 
 import {
   CancelButton,
@@ -9,7 +9,7 @@ import {
   Heading,
   Text,
   Buttons,
-} from "common/styles/Delete.styled";
+} from "../../../../common/styles/Delete.styled";
 
 type Props = {
   isDeleteOpen: boolean;

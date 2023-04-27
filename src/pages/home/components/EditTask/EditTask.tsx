@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Modal from "styled-react-modal";
-import { useAppSelector, useAppDispatch } from "redux/hooks";
-import { SubTasks, Tasks } from "common/types/types";
-import { editTask } from "redux/slices/dataSlice";
+import { useAppSelector, useAppDispatch } from "../../../../redux/hooks";
+import { SubTasks, Tasks } from "../../../../common/types/types";
+import { editTask } from "../../../../redux/slices/dataSlice";
 
 import {
   Container,
@@ -15,7 +15,7 @@ import {
   StyledCrossSVG,
   AddNewSubTask,
   CreateButton,
-} from "common/styles/ModifyTasks.styled";
+} from "../../../../common/styles/ModifyTasks.styles";
 
 type Props = {
   editTaskOpen: boolean;

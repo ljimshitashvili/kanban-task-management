@@ -1,7 +1,7 @@
 import Modal from "styled-react-modal";
-import useWindowSize from "common/hooks/useWindowSize";
-import { useAppSelector, useAppDispatch } from "redux/hooks";
-import { toggleBar } from "redux/slices/barSlice";
+import useWindowSize from "../../../../common/hooks/useWindowSize";
+import { useAppSelector, useAppDispatch } from "../../../../redux/hooks";
+import { toggleBar } from "../../../../redux/slices/barSlice";
 
 import {
   Container,
@@ -15,12 +15,12 @@ import {
   ShowButton,
 } from "./Header.styled";
 
-import { ReactComponent as LogoMobile } from "assets/svg/logo-mobile.svg";
-import { ReactComponent as LightLogoDesktop } from "assets/svg/logo-light.svg";
-import { ReactComponent as DarkLogoDesktop } from "assets/svg/logo-dark.svg";
-import { ReactComponent as ShowSideBarSVG } from "assets/svg/icon-show-sidebar.svg";
+import { ReactComponent as LogoMobile } from "../../../../assets/svg/logo-mobile.svg";
+import { ReactComponent as LightLogoDesktop } from "../../../../assets/svg/logo-light.svg";
+import { ReactComponent as DarkLogoDesktop } from "../../../../assets/svg/logo-dark.svg";
+import { ReactComponent as ShowSideBarSVG } from "../../../../assets/svg/icon-show-sidebar.svg";
 
-import { MobileNavbar } from "../Navbar";
+import { MobileNavbar } from "../NavBar";
 import { AddTask } from "../AddTask";
 import { SideBar } from "../SideBar";
 import { BoardMenu } from "../BoardMenu";
