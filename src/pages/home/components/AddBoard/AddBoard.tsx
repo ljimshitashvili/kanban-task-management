@@ -1,8 +1,8 @@
 import Modal from "styled-react-modal";
 import { useState } from "react";
-import { Columns } from "common/types/types";
-import { useAppDispatch } from "redux/hooks";
-import { addBoard } from "redux/slices/dataSlice";
+import { Columns } from "../../../../common/types/types";
+import { useAppDispatch } from "../../../../redux/hooks";
+import { addBoard } from "../../../../redux/slices/dataSlice";
 import { nanoid } from "@reduxjs/toolkit";
 
 import {
@@ -15,7 +15,7 @@ import {
   StyledCrossSVG,
   AddNewColumn,
   CreateButton,
-} from "common/styles/ModifyBoards.styled";
+} from "../../../../common/styles/ModifyBoards.styles";
 
 type Props = {
   boardModalOpen: boolean;

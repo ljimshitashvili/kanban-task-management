@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as CrossSVG } from "assets/svg/icon-cross.svg";
+import { ReactComponent as CrossSVG } from "../../assets/svg/icon-cross.svg";
 
 export const AddTaskButton = styled.div`
   margin-right: 16px;

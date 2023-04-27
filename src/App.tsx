@@ -3,8 +3,8 @@ import { useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./common/themes";
 import { Home } from "./pages/home";
-import { useAppSelector, useAppDispatch } from "redux/hooks";
-import { closeBar } from "redux/slices/barSlice";
+import { useAppSelector, useAppDispatch } from "./redux/hooks";
+import { closeBar } from "./redux/slices/barSlice";
 
 function App() {
   const { isDarkMode } = useAppSelector((state: any) => state.theme);

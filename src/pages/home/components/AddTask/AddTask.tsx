@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Modal from "styled-react-modal";
-import useWindowSize from "common/hooks/useWindowSize";
-import { Columns, SubTasks } from "common/types/types";
-import { useAppSelector, useAppDispatch } from "redux/hooks";
-import { addTask } from "redux/slices/dataSlice";
+import useWindowSize from "../../../../common/hooks/useWindowSize";
+import { Columns, SubTasks } from "../../../../common/types/types";
+import { useAppSelector, useAppDispatch } from "../../../../redux/hooks";
+import { addTask } from "../../../../redux/slices/dataSlice";
 import { nanoid } from "@reduxjs/toolkit";
 
 import {
@@ -19,9 +19,9 @@ import {
   AddNewSubTask,
   Select,
   CreateButton,
-} from "common/styles/ModifyTasks.styled";
-import { ReactComponent as MobileAddTaskSVG } from "assets/svg/add-task-mobile.svg";
-import { ReactComponent as DesktopAddTaskSVG } from "assets/svg/add-task-desktop.svg";
+} from "../../../../common/styles/ModifyTasks.styles";
+import { ReactComponent as MobileAddTaskSVG } from "../../../../assets/svg/add-task-mobile.svg";
+import { ReactComponent as DesktopAddTaskSVG } from "../../../../assets/svg/add-task-desktop.svg";
 
 export const AddTask = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
